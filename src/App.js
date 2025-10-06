@@ -9,7 +9,7 @@ function App() {
         <p>Welcome to my first React app deployed on Vercel!</p>
 
         <div className="buttons">
-          <a href="https://github.com/<your-username>" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/NotToday0007/Test_React_App" target="_blank" rel="noopener noreferrer">
             My GitHub
           </a>
           <a href="#projects">My Projects</a>

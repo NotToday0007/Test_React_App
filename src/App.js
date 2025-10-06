@@ -1,22 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Hello World! I’m Rifat 😄</h1>
+        <p>Welcome to my first React app deployed on Vercel!</p>
+
+        <div className="buttons">
+          <a href="https://github.com/<your-username>" target="_blank" rel="noopener noreferrer">
+            My GitHub
+          </a>
+          <a href="#projects">My Projects</a>
+        </div>
+
+        <section id="projects">
+          <h2>Projects</h2>
+          <ul>
+            <li>My First GitHub Page</li>
+            <li>React Practice App</li>
+          </ul>
+        </section>
       </header>
     </div>
   );
